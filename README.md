@@ -1,6 +1,6 @@
 # Moran Bickel
 
-Israeli litigator. Founder of ORCA, a legal-AI drafting system for Israeli civil litigation. The system is closed-source; the methodology that produced it is open.
+ Israeli litigator. Founder of ORCA (Orchestrated Reasoning for Civil Action) — an AI legal reasoning system for Israeli civil law.
 
 ## Methodology
 
