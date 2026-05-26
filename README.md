@@ -13,7 +13,7 @@ ORCA itself is closed-source. **The methodology that produced it is open** — t
 - **[Peer-Worker-Convergence](https://github.com/moranbickel/Peer-Worker-Convergence)** — Running multiple AI coding sessions on one repo without branch divergence: α/β/γ rules, the precision-target side-branch ceremony, a shared-file resolution playbook.
 - **[CSAE](https://github.com/moranbickel/CSAE)** — Continuous Session-Attested Evidence: attesting AI-generated commits to a verifiable audit chain — intent registration, bundle authoring, audit mirror, validator.
 
-More in the series, in progress: **Pre-IMPL Forensic Discipline** (catching wrong premises before they become wrong commits) and **Engineering Rules** (disciplines extracted from production failures).
+More in the series, in progress: **[Pre-IMPL Forensic Discipline](https://github.com/moranbickel/Pre-IMPL-Forensic-Discipline)** (catching wrong premises before they become wrong commits — published as a v0.1 draft) and **Engineering Rules** (disciplines extracted from production failures).
 
 ## Why a litigator publishes this
 
