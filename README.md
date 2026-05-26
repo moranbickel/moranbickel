@@ -1,16 +1,22 @@
 # Moran Bickel
 
- Israeli litigator. Founder of ORCA (Orchestrated Reasoning for Civil Action) — an AI legal reasoning system for Israeli civil law.
+**Israeli litigator — civil litigation & international arbitration — building ORCA, an AI legal reasoning system for Israeli civil law.**
+
+A programmer builds a document generator. A litigator builds a decision system. ORCA is a decision system — it reasons about which causes of action hold, which elements the evidence supports, and what relief follows. The design constraint isn't passing a demo; it's surviving cross-examination.
+
+ORCA itself is closed-source. **The methodology that produced it is open** — the disciplines below were extracted from production practice (and production failures), not invented for a write-up. Each one generalizes an internal ORCA discipline into something domain-neutral.
 
 ## Methodology
 
-- **[russian-judge](https://github.com/moranbickel/russian-judge)** — Adversarial AI review with structured verdicts. C/I/M defect taxonomy, numerical pass floor, single- and cross-model audit modes.
-- **[three-body-protocol](https://github.com/moranbickel/three-body-protocol)** — Coordination protocol for AI-collaborative work. Bridge artifacts (STATUS_NOW, decisions log, briefs) that keep a thinking AI, an implementing AI, and a human aligned across sessions.
-- **[peer-worker-convergence](https://github.com/moranbickel/peer-worker-convergence)** — Coordination protocol for running multiple AI coding sessions on one repo without divergence. α/β/γ rules, precision-target side-branch ceremony, shared-file resolution playbook.
-- **[csae](https://github.com/moranbickel/csae)** — Continuous Session-Attested Evidence. Attestation chains for AI-generated commits: intent registration, bundle authoring, audit mirror, validator.
-- **engineering-rules** *(coming)* — Rules-from-failures collection.
-- **status-now-discipline** *(coming)* — The 50-line living handoff in depth.
+- **[Russian-Judge](https://github.com/moranbickel/Russian-Judge)** — Adversarial AI review with structured verdicts: a C/I/M defect taxonomy, a numerical pass floor, single- and cross-model audit modes. *New here? Start with this one — it's the load-bearing piece.*
+- **[Three-Body-Protocol](https://github.com/moranbickel/Three-Body-Protocol)** — Keeping a thinking AI, an implementing AI, and a human aligned across sessions: STATUS_NOW, a decisions log, and briefs as bridge artifacts.
+- **[Peer-Worker-Convergence](https://github.com/moranbickel/Peer-Worker-Convergence)** — Running multiple AI coding sessions on one repo without branch divergence: α/β/γ rules, the precision-target side-branch ceremony, a shared-file resolution playbook.
+- **[CSAE](https://github.com/moranbickel/CSAE)** — Continuous Session-Attested Evidence: attesting AI-generated commits to a verifiable audit chain — intent registration, bundle authoring, audit mirror, validator.
 
-## About
+More in the series, in progress: **Pre-IMPL Forensic Discipline** (catching wrong premises before they become wrong commits) and **Engineering Rules** (disciplines extracted from production failures).
 
-This methodology was developed for use in production on ORCA, a legal-AI system for Israeli civil litigation. The system is closed-source; the methodology that produced it is open. Maintained by [Moran Bickel](https://github.com/moranbickel), Israeli litigator and ORCA's founder.
+## Why a litigator publishes this
+
+Most AI-workflow advice is written by engineers for engineers. These pieces come from running AI-assisted work where the output had to meet a court-filing standard — where a wrong fact, a stale premise, or an unattributable change carries real cost. The disciplines are what survived that bar.
+
+Issues and discussions on each repo are open.
