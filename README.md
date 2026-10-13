@@ -2,7 +2,8 @@
 
 Israeli litigator and founder of [ORCA Legal Labs](https://orca-legal.com).
 I build tools for checking AI-assisted work: whether the task is still valid,
-whether a cited record exists, and whether a review covers the actual change.
+whether a cited record exists, whether a review covers the actual change, whether
+a recited count matches its source, and whether a check read any input.
 
 ## Start with an example
 
